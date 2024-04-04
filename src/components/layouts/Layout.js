@@ -35,7 +35,7 @@ const Layout = () => {
     >
       <div
         data-aos="fade-left"
-        className=" font-[400] w-[65%] md:flex md:flex-col md:gap-[40px] lg:gap-0 lg:w-[50%] lg:px-[50px]"
+        className=" font-[400]  w-[60%] md:flex md:flex-col md:gap-[40px] lg:gap-0 lg:w-[50%] lg:px-[50px]"
       >
         <p className="lg:pb-[50px] pb-[30px]">
           <img
@@ -44,7 +44,7 @@ const Layout = () => {
             className="w-[100px] lg:w-[200px] md:w-[150px]"
           />
         </p>
-        <div className="flex items-end lg:gap-[12px] gap-[5px] relative lg:pb-0 pb-[3px] overflow-y-hidden">
+        <div className="flex items-end lg:gap-[12px] gap-[3px] relative lg:pb-0 pb-[3px] overflow-y-hidden">
           <div>
             <img
               src={BringyourFashionIdeastoLife}
@@ -72,7 +72,7 @@ const Layout = () => {
 
       <div
         data-aos="fade-right"
-        className="grid lg:grid-cols-4 grid-cols-3 justify-center items-center w-[35%] lg:w-[50%]"
+        className="grid lg:grid-cols-4 grid-cols-3 justify-center items-center w-[40%] lg:w-[50%]"
       >
         <span>
           <img src={girl1} alt="" className="" />
@@ -90,8 +90,8 @@ const Layout = () => {
         <span>
           <img
             src={Boy2}
-            alt=""
-            className="xl:w-[130px] lg:w-[100px] md:w-[80px] w-[35px]"
+            alt="boy2"
+            className="xl:w-[130px] lg:w-[100px] md:w-[80px] w-[45px]"
           />
         </span>
         <span>
@@ -107,6 +107,7 @@ const Layout = () => {
         <span>
           <img src={Boy1} alt="" />
         </span>
+        
         <span>
           <img src={girl7} alt="" />
         </span>

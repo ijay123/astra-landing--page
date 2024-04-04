@@ -20,4 +20,5 @@ export default function LandingPage() {
       <Layout8 />
     </div>
   );
+  
 }
